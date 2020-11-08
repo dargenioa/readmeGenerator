@@ -1,5 +1,12 @@
+//add comments throughout code
+//check licenses
+//write HTML
+//test and check markdown
+
+const { generateKeyPair } = require('crypto');
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const getUserInput = async () => {
@@ -39,7 +46,7 @@ const getUserInput = async () => {
             {
                 type: "list",
                 name: "license",
-                message: ["Apache", "Artistic"]
+                choices: ["GNU APGLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "Boost Software License 1.0", "The Unlicense"],
             },
             {
                 type: "input",
@@ -59,23 +66,27 @@ const getUserInput = async () => {
     }
 };
 
+//getUserInput();
+
 // function to write README file
 const writeToFile = async () => {
-    const { title, description, installation, usage, guidelines,
-        test, license, github, email } = await getUserInput();
-    const htmlFile = `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>README.md Generator</title>
-    </head>
-    <body>
-    </body>
-    </html>
-    `;
-}
+    try {
+        const { title, description, installation, usage, guidelines,
+            test, license, github, email } = await getUserInput();
+
+        const markdown = generateMarkdown(getUserInput);
+
+        fs.writeFileSync('README.md', markdown);
+
+        console.log('Successfully wrote to README.md');
+
+    } catch (err) {
+        console.log(err);
+    };
+
+};
+
+writeToFile();
 
 // function to initialize program
 function init() {
