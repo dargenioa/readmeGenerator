@@ -40,7 +40,7 @@ const getUserInput = async () => {
             },
             {
                 type: "input",
-                name: "test",
+                name: "tests",
                 message: "What are the test instructions?"
             },
             {
@@ -69,12 +69,11 @@ const getUserInput = async () => {
 //getUserInput();
 
 // function to write README file
-const writeToFile = async () => {
+const writeToFile = async (answers) => {
     try {
-        const { title, description, installation, usage, guidelines,
-            test, license, github, email } = await getUserInput();
+         answers = await getUserInput();
 
-        const markdown = generateMarkdown(getUserInput);
+        const markdown = generateMarkdown(answers);
 
         fs.writeFileSync('README.md', markdown);
 
@@ -88,6 +87,7 @@ const writeToFile = async () => {
 
 writeToFile();
 
+/*
 // function to initialize program
 function init() {
 
@@ -95,3 +95,4 @@ function init() {
 
 // function call to initialize program
 init();
+*/
