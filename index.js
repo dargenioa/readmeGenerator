@@ -35,7 +35,7 @@ const getUserInput = async () => {
             },
             {
                 type: "input",
-                name: "guidelines",
+                name: "contributing",
                 message: "What are the contribution guidelines?"
             },
             {

@@ -1,32 +1,36 @@
-# README.md Generator 
+# README.md Generator
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
   ## Description
-  This is a way to generate a README.md for your application.
+  test
 
   ## Installation
-  You install node.js
+  test
 
   ## Usage
-  Use this with your terminal.
+  test
+
+  ## License
+  GNU APGLv3
 
   ## Contributing
-  undefined
+  test
 
   ## Tests
   test
 
   ## Questions
 
-  Github: <a href="https://github.com/dargenioa" target="blank">dargenioa</a> <br>
-  Email: <a href="dargenioa14@gmail.com" target="blank">dargenioa14@gmail.com</a>
+  Github: <a href="https://github.com/test.com">test</a>
+  Email: <a href="test">test</a>
 
   For additional questions please feel free to reach out to me by email and checkout my Github page.
 
