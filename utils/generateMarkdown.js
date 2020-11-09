@@ -11,6 +11,8 @@ const generateMarkdown = (data) => {
   1. [Contributing](#contributing)
   1. [Tests](#tests)
   1. [Questions](#questions)
+      1.Github
+      1.Email
 
   ## Description
   ${data.description}

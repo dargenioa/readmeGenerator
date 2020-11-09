@@ -1,6 +1,7 @@
 //add comments throughout code
 //check licenses
 //test and check markdown
+//Try added a switch statement for the License
 
 //const { generateKeyPair } = require('crypto');
 const fs = require('fs');
@@ -71,6 +72,8 @@ const getUserInput = async () => {
 const writeToFile = async (data) => {
     try {
          data = await getUserInput();
+
+         //switch statement?
 
         const markdown = generateMarkdown(data);
 
