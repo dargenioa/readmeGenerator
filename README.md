@@ -25,8 +25,8 @@
 
   ## Questions
 
-  Github: <a href="https://github.com/dargenioa">dargenioa</a>
-  Email: <a href="dargenioa14@gmail.com">dargenioa14@gmail.com</a>
+  Github: <a href="https://github.com/dargenioa" target="blank">dargenioa</a> <br>
+  Email: <a href="dargenioa14@gmail.com" target="blank">dargenioa14@gmail.com</a>
 
   For additional questions please feel free to reach out to me by email and checkout my Github page.
 
