@@ -7,6 +7,7 @@ const generateMarkdown = (data) => {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -19,6 +20,9 @@ const generateMarkdown = (data) => {
 
   ## Usage
   ${data.usage}
+
+  ## License
+  ${data.license}
 
   ## Contributing
   ${data.contributing}
