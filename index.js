@@ -69,11 +69,11 @@ const getUserInput = async () => {
 //getUserInput();
 
 // function to write README file
-const writeToFile = async (answers) => {
+const writeToFile = async (data) => {
     try {
-         answers = await getUserInput();
+         data = await getUserInput();
 
-        const markdown = generateMarkdown(answers);
+        const markdown = generateMarkdown(data);
 
         fs.writeFileSync('README.md', markdown);
 

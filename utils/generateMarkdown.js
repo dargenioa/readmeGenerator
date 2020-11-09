@@ -1,7 +1,7 @@
 // function to generate markdown for README
-const generateMarkdown = (answers) => {
+const generateMarkdown = (data) => {
   
-  return `# ${answers.title}
+  return `# ${data.title}
 
   ## Table of Contents
   * [Description](#description)
@@ -10,6 +10,29 @@ const generateMarkdown = (answers) => {
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+
+  ## Description
+  ${data.description}
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+
+  Github: <a href="https://github.com/${data.github}.com">${data.github}</a>
+  Email: <a href="${data.email}">${data.email}</a>
+
+  For additional questions please feel free to reach out to me by email and checkout my Github page.
+
 
 
 
