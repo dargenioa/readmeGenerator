@@ -1,9 +1,8 @@
 //add comments throughout code
 //check licenses
-//write HTML
 //test and check markdown
 
-const { generateKeyPair } = require('crypto');
+//const { generateKeyPair } = require('crypto');
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
