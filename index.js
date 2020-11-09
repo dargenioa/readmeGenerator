@@ -3,10 +3,10 @@
 //test and check markdown
 //Try added a switch statement for the License
 
-//const { generateKeyPair } = require('crypto');
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
+
 
 // array of questions for user
 const getUserInput = async () => {
