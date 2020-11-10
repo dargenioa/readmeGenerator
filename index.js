@@ -1,13 +1,9 @@
-//add comments throughout code
 //check licenses
 //test and check markdown
-//Try added a switch statement for the License
 
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-//let badge;
-//let notes;
 
 // array of questions for user
 const getUserInput = async () => {
@@ -75,9 +71,7 @@ const getUserInput = async () => {
 const writeToFile = async (data) => {
     try {
          data = await getUserInput();
-
-         //switch statement?
-
+         
         const markdown = generateMarkdown(data);
 
         fs.writeFileSync('README.md', markdown);

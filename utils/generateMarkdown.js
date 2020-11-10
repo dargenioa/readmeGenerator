@@ -14,6 +14,7 @@ let notice;
   
   return `# ${data.title}
   ${badge}
+  ${notice}
 
   ## Table of Contents
   1. [Description](#description)
