@@ -1,5 +1,5 @@
-# test ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  [MIT License](https://opensource.org/licenses/MIT)
+# test ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
   1. [Description](#description)
@@ -20,7 +20,7 @@
   test
 
   ## License
-  MIT License
+  Apache License 2.0
 
   ## Contributing
   test
