@@ -1,7 +1,6 @@
-const inquirer = require("inquirer");
-
 // function to generate markdown for README
 const generateMarkdown = (data) => {
+
 let badge;
 let notice;
 
@@ -24,8 +23,8 @@ let notice;
   1. [Contributing](#contributing)
   1. [Tests](#tests)
   1. [Questions](#questions)
-      1.Github
-      1.Email
+    1.Github
+    1.Email
 
   ## Description
   ${data.description}

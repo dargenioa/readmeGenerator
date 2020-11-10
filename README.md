@@ -1,5 +1,5 @@
 # test
-  ![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
+  https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
   ## Table of Contents
   1. [Description](#description)
@@ -9,8 +9,8 @@
   1. [Contributing](#contributing)
   1. [Tests](#tests)
   1. [Questions](#questions)
-      1.Github
-      1.Email
+    1.Github
+    1.Email
 
   ## Description
   test
