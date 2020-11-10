@@ -33,7 +33,7 @@ const generateMarkdown = (data) => {
       break;
 
     case 'MIT License':
-      badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+      badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
       notice = `[${data.license}](https://opensource.org/licenses/MIT)`
       break;
 
@@ -43,7 +43,7 @@ const generateMarkdown = (data) => {
       break;
 
     case 'The Unlicense':
-      badge = '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]'
+      badge = '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)'
       notice = `[${data.license}](http://unlicense.org/)`
       break;
 };
