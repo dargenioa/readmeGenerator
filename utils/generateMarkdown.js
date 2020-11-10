@@ -5,7 +5,7 @@ let badge;
 let notice;
 
   if (data.license === 'GNU APGLv3') {
-    badge='https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
+    badge='(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
     notice='(https://www.gnu.org/licenses/agpl-3.0)'
     console.log(`this is the ${badge}`);
 } else {
@@ -23,8 +23,6 @@ let notice;
   1. [Contributing](#contributing)
   1. [Tests](#tests)
   1. [Questions](#questions)
-    1.Github
-    1.Email
 
   ## Description
   ${data.description}
