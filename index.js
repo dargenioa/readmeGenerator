@@ -6,11 +6,13 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-
+//let badge;
+//let notes;
 
 // array of questions for user
 const getUserInput = async () => {
     try {
+
         const data = await inquirer.prompt([
             {
                 type: "input",
@@ -64,6 +66,7 @@ const getUserInput = async () => {
     } catch (error) {
         console.log(error);
     }
+
 };
 
 //getUserInput();
@@ -78,7 +81,6 @@ const writeToFile = async (data) => {
         const markdown = generateMarkdown(data);
 
         fs.writeFileSync('README.md', markdown);
-
         console.log('Successfully wrote to README.md');
 
     } catch (err) {

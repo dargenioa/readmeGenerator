@@ -1,7 +1,20 @@
+const inquirer = require("inquirer");
+
 // function to generate markdown for README
 const generateMarkdown = (data) => {
+let badge;
+let notice;
+
+  if (data.license === 'GNU APGLv3') {
+    badge='https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
+    notice='(https://www.gnu.org/licenses/agpl-3.0)'
+    console.log(`this is the ${badge}`);
+} else {
+    console.log('try again');
+};
   
   return `# ${data.title}
+  ${badge}
 
   ## Table of Contents
   1. [Description](#description)
@@ -39,7 +52,6 @@ const generateMarkdown = (data) => {
   **Email:** [${data.email}](${data.email})
 
   For additional questions please feel free to reach out to me by email and checkout my Github page.
-
 
 
 
