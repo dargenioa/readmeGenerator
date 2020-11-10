@@ -1,5 +1,5 @@
-# test ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-  [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0)
+# test ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  [MIT License](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   1. [Description](#description)
@@ -20,7 +20,7 @@
   test
 
   ## License
-  GNU GPLv3
+  MIT License
 
   ## Contributing
   test
