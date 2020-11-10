@@ -1,6 +1,5 @@
-# test
-  ![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
-  (https://www.gnu.org/licenses/agpl-3.0)
+# test ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Table of Contents
   1. [Description](#description)
@@ -21,7 +20,7 @@
   test
 
   ## License
-  GNU APGLv3
+  GNU GPLv3
 
   ## Contributing
   test
