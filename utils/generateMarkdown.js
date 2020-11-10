@@ -13,7 +13,7 @@ const generateMarkdown = (data) => {
       break;
    
       case "GNU GPLv3":
-      badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+      badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
       notice = `[${data.license}](https://www.gnu.org/licenses/gpl-3.0)`;
       break;
     
@@ -33,8 +33,8 @@ const generateMarkdown = (data) => {
       break;
 
     case 'MIT License':
-      badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-      notice = `[${data.license}](https://choosealicense.com/licenses/mit/)`
+      badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+      notice = `[${data.license}](https://opensource.org/licenses/MIT)`
       break;
 
     case 'Boost Software License 1.0':
@@ -43,8 +43,8 @@ const generateMarkdown = (data) => {
       break;
 
     case 'The Unlicense':
-      badge = '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
-      notice = `[${data.license}](https://choosealicense.com/licenses/unlicense/)`
+      badge = '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]'
+      notice = `[${data.license}](http://unlicense.org/)`
       break;
 };
   /*
