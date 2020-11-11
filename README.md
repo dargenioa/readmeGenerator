@@ -15,11 +15,14 @@
 
   ## Installation
 
-  To install this application the user must have node installed.  The node File System and Inquirer package are both required for use. ```JavaScript const fs = require('fs');
+  To install this application the user must have node installed.  The node File System and Inquirer package are both required for use. ```javascript
+  const fs = require('fs');
+  const inquirer = require('inquirer');
+  ```
 
   ## Usage
 
-  To get started with the application, run ```node index.js``` in the terminal.  Once the user hits enter, they will be asked a series of questions relating to the table of contents in the application.  The user has an option of choosing a license which will dynamically add a badge near the title and a notice with a link to the detailed license in the License section.  When the file is created, the user will be able to update the README.md file with any videos, screenshots or other important information.
+  To get started with the application, run `node index.js` in the terminal.  Once the user hits enter, they will be asked a series of questions relating to the table of contents in the application.  The user has an option of choosing a license which will dynamically add a badge near the title and a notice with a link to the detailed license in the License section.  When the file is created, the user will be able to update the README.md file with any videos, screenshots or other important information.
 
   ## License
 
