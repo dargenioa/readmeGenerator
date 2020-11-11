@@ -61,24 +61,30 @@ const generateMarkdown = (data) => {
   1. [Questions](#questions)
 
   ## Description
+
   ${data.description}
 
   ## Installation
+
   ${data.installation}
 
   ## Usage
+
   ${data.usage}
 
   ## License
+
   ${notice}
 
   This project is licensed under ${notice}.  Please visit the link for more details.
 
 
   ## Contributing
+
   ${data.contributing}
 
   ## Tests
+  
   ${data.tests}
 
   ## Questions
@@ -87,8 +93,7 @@ const generateMarkdown = (data) => {
 
   **Email:** [${data.email}](${data.email})
 
-  For additional questions please feel free to reach out to me by email and checkout my Github page.
-
+  For additional questions please feel free to contact me.
 
 
 `;
