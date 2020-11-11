@@ -44,7 +44,16 @@ const getUserInput = async () => {
             {
                 type: "list",
                 name: "license",
-                choices: ["GNU APGLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "Boost Software License 1.0", "The Unlicense"],
+                choices: [
+                    "GNU APGLv3",
+                    "GNU GPLv3",
+                    "GNU LGPLv3",
+                    "Mozilla Public License 2.0",
+                    "Apache License 2.0",
+                    "MIT License",
+                    "Boost Software License 1.0",
+                    "The Unlicense"
+                ],
             },
             {
                 type: "input",
@@ -68,9 +77,9 @@ const getUserInput = async () => {
 //getUserInput();
 
 // function to write README file
-const writeToFile = async (data) => {
+const writeToFile = async () => {
     try {
-         data = await getUserInput();
+         const data = await getUserInput();
          
         const markdown = generateMarkdown(data);
 

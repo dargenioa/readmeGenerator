@@ -1,5 +1,5 @@
-# test ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
+# READme Generator ![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)
+  [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
 
   ## Table of Contents
   1. [Description](#description)
@@ -20,7 +20,10 @@
   test
 
   ## License
-  Apache License 2.0
+  [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
+
+  This project is licensed under [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt).  Please visit the link for more details.
+
 
   ## Contributing
   test

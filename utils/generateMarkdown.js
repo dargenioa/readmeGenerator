@@ -47,19 +47,9 @@ const generateMarkdown = (data) => {
       notice = `[${data.license}](http://unlicense.org/)`
       break;
 };
-  /*
-    if (data.license === 'GNU APGLv3') {
-      badge='![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
-      notice='(https://www.gnu.org/licenses/agpl-3.0)'
-      console.log(`this is the ${badge}`);
-  } else {
-      console.log('try again');
-  };
-  */
 
 
   return `# ${data.title} ${badge}
-  ${notice}
 
   ## Table of Contents
   1. [Description](#description)
@@ -80,7 +70,10 @@ const generateMarkdown = (data) => {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${notice}
+
+  This project is licensed under ${notice}.  Please visit the link for more details.
+
 
   ## Contributing
   ${data.contributing}
