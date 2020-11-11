@@ -18,7 +18,6 @@
   To install this application the user must have node installed.  The node File System and Inquirer package are both required for use. ```javascript
   const fs = require('fs');
   const inquirer = require('inquirer');
-  ```
 
   ## Usage
 
