@@ -1,6 +1,4 @@
-//check licenses
-//test and check markdown
-
+//require node.js packages
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -74,13 +72,11 @@ const getUserInput = async () => {
 
 };
 
-//getUserInput();
-
 // function to write README file
 const writeToFile = async () => {
     try {
-         const data = await getUserInput();
-         
+        const data = await getUserInput();
+
         const markdown = generateMarkdown(data);
 
         fs.writeFileSync('README.md', markdown);
@@ -93,13 +89,3 @@ const writeToFile = async () => {
 };
 
 writeToFile();
-
-/*
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
-*/
