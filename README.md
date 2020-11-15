@@ -13,6 +13,11 @@
 
   The readmeGenerator application helps create a high-quality README.md file for any given application.  This application is formatted with a Table of Contents to include a detailedn description, installation instructions, usage, licensing information, contribution guidelines, tests and contact information for Github and Email for users to reach out with additional questions.
 
+  ## Video Demo
+
+  ![](./utils/readmeGenerator.gif)
+
+
   ## Installation
 
   To install this application the user must have node installed.  The node File System and Inquirer package are both required for use.
